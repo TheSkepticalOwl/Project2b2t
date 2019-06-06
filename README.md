@@ -4,11 +4,9 @@ A proxy node.js server to connect into the 2b2t queue to get further ahead into 
 # How to install
 1. Download [node.js](https://nodejs.org/en/download/) and install it. On non-windows platforms, you also need npm.
 2. Download this repository as a zip, then, unzip it.
-3. Open a terminal and navigate to the folder you downloaded it
-4. Run `npm install`
-5. Copy secrets.json.example and name it secrets.json. Fill out your minecraft information in the file. Note that you must use your email adress and not your minecraft username.
-6. If you so wish, edit the configuration in config.json. (On Linux ports below 1024, including port 80, require you to run the program with administrator rights.)
-7. For trust reasons, *this tool does not update automatically*. Check back here once in a while to see if there are any updates.
+3. Copy secrets.json.example and name it secrets.json. Fill out your minecraft information in the file. Note that you must use your email adress and not your minecraft username.
+4. If you so wish, edit the configuration in config.json. (On Linux ports below 1024, including port 80, require you to run the program with administrator rights.)
+5. For trust reasons, *this tool does not update automatically*. Check back here once in a while to see if there are any updates.
 
 
 # How to use
