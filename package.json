@@ -1,0 +1,21 @@
+{
+  "name": "G2QP",
+  "version": "1.0.0",
+  "description": "A proxy to wait out 2b2t.org's way too long queue.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+
+  "author": "Gluipertje Team",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://duckduckgo.com"
+  },
+  "homepage": "https://duckduckgo.com",
+  "dependencies": {
+    "minecraft-protocol": "^1.8.3",
+    "opn": "^6.0.0"
+  }
+}
