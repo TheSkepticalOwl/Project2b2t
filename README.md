@@ -1,4 +1,4 @@
-# GLUIP-2B2T-Queue-Proxy
+# Gluipertje 2b2t Queue Proxy
 A proxy node.js server to connect into the 2b2t queue to get further ahead into the queue without having your mc client turned on
 
 # How to install
