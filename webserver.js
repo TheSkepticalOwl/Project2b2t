@@ -20,6 +20,8 @@ module.exports = {
                     res.end();
                 } else if(req.url === "/start") { //API endpoint to start queuing
                     res.writeHead(200);
+                    res.writeHead(200, {'Content-type': 'text/json'});
+                    res.write("{\"starttime\":"+ module.exports.starttime+"}")
                     res.end();
                     module.exports.onstartcallback();
                 } else if(req.url === "/stop") { //API endpoint to stop queuing
@@ -50,6 +52,7 @@ module.exports = {
     onstartcallback: null, //a save of the action to start
     onstopcallback: null, //same but to stop
     restartQueue: false, //when at the end of the queue, restart if no client is connected?
-    password: "" //the password to use for the webapp
+    password: "", //the password to use for the webapp
+    starttime: "-"
 };
 
