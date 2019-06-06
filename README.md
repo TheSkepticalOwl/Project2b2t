@@ -18,6 +18,7 @@ A proxy node.js server to connect into the 2b2t queue to get further ahead into 
 6. press the "Start queing" button. The queue position indicator auto-updates, but sometimes it takes a while to start counting (like 1 min).
 7. once the queue reaches a low number, connect to the minecraft server at address `localhost`. Currently, you have to connect BEFORE reaching the end of the queue or you will not spawn in the world correctly (I'm told that sneaking around and right-clicking things eventually makes you spawn correctly but I was not able to verify that).
 8. after you log off, click the "stop queuing" button. This is really important, as you will not actually disconnect from 2b2t until you do that.
+9. MAKE SURE you connect before the queue end or the minecraft server proxy will stop (known bug)
 
 # How to use (On a server)
 1. using port 80 for the webserver usually results in problems so we advise changing it to something like '8080'
