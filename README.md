@@ -26,5 +26,11 @@ A proxy node.js server to connect into the 2b2t queue to get further ahead into 
 `example: 108.16.17.7/80`
 5. now just continue with the default start tutorial
 
+# Known bugs
+1. You get kicked much sooner for being afk if you use this tool
+2. Riding entities is not working
+3. If you fish, your fishing line is not shown
+These are bugs caused by connecting via proxy, these cant be fixed.
+
 # Credits
 Thanks to 'The moon is a cheese' for the original node.js server proxy, https://github.com/themoonisacheese/2bored2wait
