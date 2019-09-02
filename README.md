@@ -30,7 +30,7 @@ A proxy node.js server to connect into the 2b2t queue to get further ahead into 
 1. You get kicked much sooner for being afk if you use this tool
 2. Riding entities is not working
 3. If you fish, your fishing line is not shown
-4. These are bugs caused by connecting via proxy, these cant be fixed.
+4. These are bugs caused by connecting via proxy, these cant be fixed. (as far as i know)
 
 # Credits
 Thanks to 'The moon is a cheese' for the original node.js server proxy, https://github.com/themoonisacheese/2bored2wait
